@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+/*======================Header============================*/
+.header{
+    position: relative;
+}
+.heritage1-img{
+    background-image: url('Slide/Heritage1.jpg');
+    background-size: cover;
+    background-position: 0px -200px;
+    height: 570px;
+    position: relative;
+    padding: 30px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.r-content{
+    background-color: rgb(249, 241, 241);
+    position: absolute;
+    opacity: 0.7;
+    position: absolute;
+    color: #b67b04;
+    letter-spacing: 10px;
+    left: 0;
+    right: 0;
+    padding: 20px;
+}
+/*==========================map===========================*/
+.map{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.map div{
+    height: 30px;
+    width: 30px;
+    background-image: url('Slide/location-icon.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25%;
+    left: 28%;
+}
+.map:hover div{
+    scale: 1.2;
+}
+
+/*=====================Description=========================*/
+.city-description{
+    background-color: #dcf18a;
+    padding: 20px;
+    width: 75%;
+    margin: 2px auto 1px;
+    color: #27374D;
+    font-weight: 300;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 20px 10px rgba(128, 128, 128, 0.15);
+    border-radius: 2px;
+    text-indent: 25%;
+    text-align: justify;
+}
+
+
+.line{
+    height: 1px;
+    margin: 25px 50px;
+    background-color: #9DB2BF;
+    border-radius: 10px;
+}
+

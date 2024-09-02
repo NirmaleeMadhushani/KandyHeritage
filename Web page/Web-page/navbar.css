@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*============Navbar================*/
+*{
+    font-family: 'roboto', sans-serif;
+}
+.navbar{
+    background-color: #112D4E;
+}
+ul{
+    list-style-type: none;
+}
+ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+ul li{
+    float: right;
+    color: white;
+    font-weight: 300;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 28.7px 20px;
+    transition: all ease 0.3s;
+}
+ul a:hover{
+    color: #E84545;
+    border-bottom: 4px solid #E84545;
+}
+/*----------Search-icon-li-----------------------*/
+.search-icon-container{
+    float: right;
+    padding: 30.8px 20px;
+    background-color: #E84545;
+}
+.search-icon-container:hover{
+    background-color: #bd1717;
+}
+.search-icon{
+    background-image: url('Home/search-icon.png');
+    height: 20px;
+    width: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: invert();
+    float: left;
+}
+.search-icon-li:hover .search-bar{
+    transform: scaleX(1);
+}
+.search-bar{
+    float: left;
+    padding: 26px 10px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: all ease 0.4s;
+    background-color: #E84545;
+}
+.search-bar input:focus{
+    outline: none;
+}
+.search-bar input{
+    padding: 5px 10px;
+    border: 2px solid white;
+}
+
+/*-------------------------------------*/
+.kandy-icon{
+    width: 100px;
+    height: 30px;
+    background-image: url('Home/home-logo-2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    margin: 25px 10px;
+}
+
+/*=======Footer===================================*/
+.footer{
+    background-color: #212A3E;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    font-size: small;
+}
+.footer div{
+    color: white;
+    font-weight: 300;
+    margin: 0px 20px;
+    display: inline-block;
+    width: 400px;
+    font-size: 16px;
+}
+.footer div p{
+    font-weight: 700;
+}

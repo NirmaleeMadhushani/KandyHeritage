@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*========Head=====================================*/
+.head{
+    position: relative;
+    overflow: hidden;
+}
+.head-img{
+    background: url('Slide/hanthana-head.jpg') 0px -300px;
+    background-size: cover;
+    height: 500px;
+}
+.black-mask{
+    height: 500px;
+    position: absolute;
+    width: 1550px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.head-text{
+    color: white;
+    font-size: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    font-weight: 900;
+    color: #FFB84C;
+    opacity: 0.5;
+    letter-spacing: 20px;
+}
+.sub-text{
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    translate: -50% -50%;
+    font-size: 40px; 
+    font-weight: 400;
+    letter-spacing: 10px;
+}
+
+/*========Image List=====================================*/
+.list{
+    margin: 20px;
+    min-width: 1000px;
+    text-align: center;
+}
+.list a{
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+}
+.img{
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.one a{
+    background: url('Slide/13.avif');
+    background-size: cover;
+}
+.two a{
+    background: url('Slide/14.jpg');
+    background-size: cover;
+}
+.three a{
+    background: url('Slide/Gallery3.2.jpg');
+    background-size: cover;
+}
+.four a{
+    background: url('Slide/3.jpg');
+    background-size: cover;
+}
+.five a{
+    background: url('Slide/queens-hotel.webp');
+    background-size: cover;
+}
+.six a{
+    background: url('Slide/embekka-6.jpg');
+    background-size: cover;
+}
+.seven a{
+    background: url('Slide/ambuluwawa-7.jpg');
+    background-size: cover;
+}
+.eight a{
+    background: url('Slide/Gallery8.jpg');
+    background-size: cover;
+}
+.nine a{
+    background: url('Slide/Ceylon-Tea-Museum-9.jpg');
+    background-size: cover;
+}
+.ten a{
+    background: url('Slide/hanthana-10.jpg');
+    background-size: cover;
+}
+
+
+.img-name{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: large;
+    transition: all ease-in-out 0.8s;
+}
+.img:hover .img-name{
+    translate: -100% 0%;
+}

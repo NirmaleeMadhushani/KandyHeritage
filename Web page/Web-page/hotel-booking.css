@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+body{
+    background: url('Slide/hotel-booking.jpg') 0px -200px;
+    background-size: cover;
+    /*overflow: hidden;*/
+}
+
+/*===Black mask=============================*/
+.black-mask{
+    height: 640px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*===form=============================*/
+.form{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 25px;
+    width: 35%;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    color: white;
+    border-radius: 10px;
+}
+table, td{
+    width: 100%;
+}
+td{
+    padding: 5px;
+    font-size: small;
+}
+.form input, .form select{
+    padding: 8px;
+    width: 100%;
+}
+input[type="submit"]{
+    width: 40%;
+    background-color: #E76161;
+    border: none;
+    padding: 15px 0px;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: #e33c3c;
+}
+tr:last-child td{
+    text-align: center;
+}
+.form-head{
+    text-align: center;
+    font-weight: 700;
+}
+
+/*=====================================*/
+.r-content{
+    background-color: #a1c6d0;
+    padding: 20px;
+    margin: 2px auto 1px;
+    color: #020b17;
+    letter-spacing: 1px;
+    box-shadow: 5px 5px 20px 10px rgba(128, 128, 128, 0.15);
+    border-radius: 2px;
+    text-indent: 25%;
+    text-align: justify;
+    width: 50%;
+    height: 230px;
+    background-color: rgb(250, 241, 241);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 1px;
+    left: 5%;
+    opacity: 0.7;
+}
+
+
